@@ -4,7 +4,7 @@ export const equipmentData = [
     category: 'Urinalysis Analyzer',
     name: 'HT-11A Urinalysis Analyzer',
     subtitle: 'Automated Urine Analysis System',
-    image: '/urinalysis-analyzer.jpg',
+    image: process.env.PUBLIC_URL + '/urinalysis-analyzer.jpg',
     description: 'High reliability urinalysis analyzer with bright cold light source, compact design, and user-friendly interface for accurate urine testing.',
     features: [
       'High Reliability with extended service life',
@@ -32,7 +32,7 @@ export const equipmentData = [
     category: 'X-Ray System',
     name: 'ICEN Stationary X-Ray with DR System',
     subtitle: 'Complete DR Radiography Solution',
-    image: '/stationary-xray.jpg',
+    image: process.env.PUBLIC_URL + '/stationary-xray.jpg',
     description: 'Complete stationary X-ray system with DR (Digital Radiography) for comprehensive diagnostic imaging capabilities.',
     features: [
       'Amorphous Silicon Detector Technology',
@@ -81,7 +81,7 @@ export const equipmentData = [
     category: 'X-Ray System',
     name: 'ICEN High Frequency Portable X-Ray Machine',
     subtitle: '4KW Digital Portable System',
-    image: '/portable-xray.jpg',
+    image: process.env.PUBLIC_URL + '/portable-xray.jpg',
     description: '4KW digital portable high frequency X-ray machine for medical diagnosis. Used for human limbs checking, diagnosing, especially in field operations, battlefield, playgrounds, pet clinics, rescue diagnosis, etc.',
     features: [
       'Deft and Concise Design',
@@ -118,7 +118,7 @@ export const equipmentData = [
     category: 'Hematology Analyzer',
     name: 'HIGHTOP HT-300',
     subtitle: '3 Part Hematology Analyzer',
-    image: '/hematology-analyzer.jpg',
+    image: process.env.PUBLIC_URL + '/hematology-analyzer.jpg',
     description: 'A compact 3-part hematology analyzer that delivers fast, accurate results with minimal sample use. Easy to operate, reliable, and built for efficient lab workflows.',
     features: [
       'Compact design for space-efficient laboratories',
@@ -140,7 +140,7 @@ export const equipmentData = [
     category: 'Chemistry Analyzer',
     name: 'HIGHTOP HTSH-2000',
     subtitle: 'Full Auto Chem Analyzer',
-    image: '/chemistry-analyzer.jpg',
+    image: process.env.PUBLIC_URL + '/chemistry-analyzer.jpg',
     description: 'Boost efficiency with the Hightop HTSH-2000 – a fully automatic chemical processor built for precision, speed, and safety. Minimal input, maximum performance.',
     features: [
       'Fully Automatic – Saves time with minimal manual work',
@@ -171,7 +171,7 @@ export const equipmentData = [
     category: 'ECG Machine',
     name: 'RN8003+ ECG Machine',
     subtitle: '3-Channel ECG with Interpretation',
-    image: '/ecg-machine.jpg',
+    image: process.env.PUBLIC_URL + '/ecg-machine.jpg',
     description: 'The RN8003+ ECG machine delivers accurate ECG waveforms with digital components and high-resolution thermal printer. Advanced technology ensures stable performance for hospital and home use.',
     features: [
       'Compact, Ergonomic, and Portable Design',
@@ -209,7 +209,7 @@ export const equipmentData = [
     category: 'Ultrasound',
     name: 'DP-10 Digital Ultrasonic Diagnostic Imaging System',
     subtitle: 'Advanced Ultrasound with PW Doppler',
-    image: '/ultrasound.jpg',
+    image: process.env.PUBLIC_URL + '/ultrasound.jpg',
     description: 'Best-in-class performance meets ergonomic design. Exceptional image quality with PW Doppler imaging and auto-measurement intelligence for enhanced diagnostic confidence.',
     features: [
       '12.1" High-Resolution LED Display',

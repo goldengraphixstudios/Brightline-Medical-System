@@ -8,10 +8,7 @@ export default function Supplies() {
       <header className="header scrolled">
         <div className="nav-container">
           <Link to="/" className="logo-container">
-            <div className="logo-text">
-              <div className="logo-main">BRIGHTLINE</div>
-              <div className="logo-sub">Medical System</div>
-            </div>
+            <img src={process.env.PUBLIC_URL + '/logo.png'} alt="Brightline Medical System" className="logo-image" />
           </Link>
           
           <nav>

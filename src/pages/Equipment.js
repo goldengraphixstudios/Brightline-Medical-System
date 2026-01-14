@@ -32,7 +32,7 @@ export default function Equipment() {
       <header className="header scrolled">
         <div className="nav-container">
           <Link to="/" className="logo-container">
-            <img src="/logo.png" alt="Brightline Medical System" className="logo-image" />
+            <img src={process.env.PUBLIC_URL + '/logo.png'} alt="Brightline Medical System" className="logo-image" />
           </Link>
           
           <nav>

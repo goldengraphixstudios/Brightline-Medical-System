@@ -42,7 +42,7 @@ export default function Home() {
       <header className={`header ${scrolled ? 'scrolled' : ''}`}>
         <div className="nav-container">
           <Link to="/" className="logo-container">
-            <img src="/logo.png" alt="Brightline Medical System" className="logo-image" />
+            <img src={process.env.PUBLIC_URL + '/logo.png'} alt="Brightline Medical System" className="logo-image" />
           </Link>
           
           <nav>
@@ -164,7 +164,7 @@ export default function Home() {
           
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '2rem', maxWidth: '1400px', margin: '0 auto' }}>
             <div style={{ background: 'white', borderRadius: '15px', overflow: 'hidden', boxShadow: '0 4px 20px rgba(0, 0, 0, 0.08)', transition: 'transform 0.3s ease', cursor: 'pointer' }} onMouseEnter={(e) => e.currentTarget.style.transform = 'translateY(-8px)'} onMouseLeave={(e) => e.currentTarget.style.transform = 'translateY(0)'}>
-              <img src="/urinalysis-analyzer.jpg" alt="HT-11A Urinalysis Analyzer" style={{ width: '100%', height: '300px', objectFit: 'cover' }} />
+              <img src={process.env.PUBLIC_URL + '/urinalysis-analyzer.jpg'} alt="HT-11A Urinalysis Analyzer" style={{ width: '100%', height: '300px', objectFit: 'cover' }} />
               <div style={{ padding: '1.5rem' }}>
                 <h3 style={{ fontSize: '1.3rem', fontWeight: '700', color: 'var(--charcoal)', marginBottom: '0.5rem' }}>HT-11A Urinalysis Analyzer</h3>
                 <p style={{ color: 'var(--text-secondary)', fontSize: '0.95rem' }}>Advanced automated urinalysis testing with high accuracy and efficiency</p>
@@ -172,7 +172,7 @@ export default function Home() {
             </div>
 
             <div style={{ background: 'white', borderRadius: '15px', overflow: 'hidden', boxShadow: '0 4px 20px rgba(0, 0, 0, 0.08)', transition: 'transform 0.3s ease', cursor: 'pointer' }} onMouseEnter={(e) => e.currentTarget.style.transform = 'translateY(-8px)'} onMouseLeave={(e) => e.currentTarget.style.transform = 'translateY(0)'}>
-              <img src="/stationary-xray.jpg" alt="ICEN Stationary X-Ray with DR System" style={{ width: '100%', height: '300px', objectFit: 'cover' }} />
+              <img src={process.env.PUBLIC_URL + '/stationary-xray.jpg'} alt="ICEN Stationary X-Ray with DR System" style={{ width: '100%', height: '300px', objectFit: 'cover' }} />
               <div style={{ padding: '1.5rem' }}>
                 <h3 style={{ fontSize: '1.3rem', fontWeight: '700', color: 'var(--charcoal)', marginBottom: '0.5rem' }}>ICEN Stationary X-Ray</h3>
                 <p style={{ color: 'var(--text-secondary)', fontSize: '0.95rem' }}>Complete X-Ray system with digital radiography for superior imaging quality</p>
@@ -180,7 +180,7 @@ export default function Home() {
             </div>
 
             <div style={{ background: 'white', borderRadius: '15px', overflow: 'hidden', boxShadow: '0 4px 20px rgba(0, 0, 0, 0.08)', transition: 'transform 0.3s ease', cursor: 'pointer' }} onMouseEnter={(e) => e.currentTarget.style.transform = 'translateY(-8px)'} onMouseLeave={(e) => e.currentTarget.style.transform = 'translateY(0)'}>
-              <img src="/portable-xray.jpg" alt="ICEN High Frequency Portable X-Ray" style={{ width: '100%', height: '300px', objectFit: 'cover' }} />
+              <img src={process.env.PUBLIC_URL + '/portable-xray.jpg'} alt="ICEN High Frequency Portable X-Ray" style={{ width: '100%', height: '300px', objectFit: 'cover' }} />
               <div style={{ padding: '1.5rem' }}>
                 <h3 style={{ fontSize: '1.3rem', fontWeight: '700', color: 'var(--charcoal)', marginBottom: '0.5rem' }}>ICEN Portable X-Ray</h3>
                 <p style={{ color: 'var(--text-secondary)', fontSize: '0.95rem' }}>High frequency portable X-Ray machine for flexible diagnostic imaging</p>
@@ -188,7 +188,7 @@ export default function Home() {
             </div>
 
             <div style={{ background: 'white', borderRadius: '15px', overflow: 'hidden', boxShadow: '0 4px 20px rgba(0, 0, 0, 0.08)', transition: 'transform 0.3s ease', cursor: 'pointer' }} onMouseEnter={(e) => e.currentTarget.style.transform = 'translateY(-8px)'} onMouseLeave={(e) => e.currentTarget.style.transform = 'translateY(0)'}>
-              <img src="/hematology-analyzer.jpg" alt="HIGHTOP HT-300 Hematology Analyzer" style={{ width: '100%', height: '300px', objectFit: 'cover' }} />
+              <img src={process.env.PUBLIC_URL + '/hematology-analyzer.jpg'} alt="HIGHTOP HT-300 Hematology Analyzer" style={{ width: '100%', height: '300px', objectFit: 'cover' }} />
               <div style={{ padding: '1.5rem' }}>
                 <h3 style={{ fontSize: '1.3rem', fontWeight: '700', color: 'var(--charcoal)', marginBottom: '0.5rem' }}>HIGHTOP HT-300</h3>
                 <p style={{ color: 'var(--text-secondary)', fontSize: '0.95rem' }}>3-part hematology analyzer for comprehensive blood analysis</p>
@@ -196,7 +196,7 @@ export default function Home() {
             </div>
 
             <div style={{ background: 'white', borderRadius: '15px', overflow: 'hidden', boxShadow: '0 4px 20px rgba(0, 0, 0, 0.08)', transition: 'transform 0.3s ease', cursor: 'pointer' }} onMouseEnter={(e) => e.currentTarget.style.transform = 'translateY(-8px)'} onMouseLeave={(e) => e.currentTarget.style.transform = 'translateY(0)'}>
-              <img src="/chemistry-analyzer.jpg" alt="HTSH-2000 Chemistry Analyzer" style={{ width: '100%', height: '300px', objectFit: 'cover' }} />
+              <img src={process.env.PUBLIC_URL + '/chemistry-analyzer.jpg'} alt="HTSH-2000 Chemistry Analyzer" style={{ width: '100%', height: '300px', objectFit: 'cover' }} />
               <div style={{ padding: '1.5rem' }}>
                 <h3 style={{ fontSize: '1.3rem', fontWeight: '700', color: 'var(--charcoal)', marginBottom: '0.5rem' }}>HTSH-2000</h3>
                 <p style={{ color: 'var(--text-secondary)', fontSize: '0.95rem' }}>Full auto chemistry analyzer for precise clinical chemistry testing</p>
@@ -204,7 +204,7 @@ export default function Home() {
             </div>
 
             <div style={{ background: 'white', borderRadius: '15px', overflow: 'hidden', boxShadow: '0 4px 20px rgba(0, 0, 0, 0.08)', transition: 'transform 0.3s ease', cursor: 'pointer' }} onMouseEnter={(e) => e.currentTarget.style.transform = 'translateY(-8px)'} onMouseLeave={(e) => e.currentTarget.style.transform = 'translateY(0)'}>
-              <img src="/ecg-machine.jpg" alt="RN8003+ ECG Machine" style={{ width: '100%', height: '300px', objectFit: 'cover' }} />
+              <img src={process.env.PUBLIC_URL + '/ecg-machine.jpg'} alt="RN8003+ ECG Machine" style={{ width: '100%', height: '300px', objectFit: 'cover' }} />
               <div style={{ padding: '1.5rem' }}>
                 <h3 style={{ fontSize: '1.3rem', fontWeight: '700', color: 'var(--charcoal)', marginBottom: '0.5rem' }}>RN8003+ ECG Machine</h3>
                 <p style={{ color: 'var(--text-secondary)', fontSize: '0.95rem' }}>Digital electrocardiography system for accurate cardiac monitoring</p>
@@ -212,7 +212,7 @@ export default function Home() {
             </div>
 
             <div style={{ background: 'white', borderRadius: '15px', overflow: 'hidden', boxShadow: '0 4px 20px rgba(0, 0, 0, 0.08)', transition: 'transform 0.3s ease', cursor: 'pointer' }} onMouseEnter={(e) => e.currentTarget.style.transform = 'translateY(-8px)'} onMouseLeave={(e) => e.currentTarget.style.transform = 'translateY(0)'}>
-              <img src="/ultrasound.jpg" alt="DP-10 Digital Ultrasound" style={{ width: '100%', height: '300px', objectFit: 'cover' }} />
+              <img src={process.env.PUBLIC_URL + '/ultrasound.jpg'} alt="DP-10 Digital Ultrasound" style={{ width: '100%', height: '300px', objectFit: 'cover' }} />
               <div style={{ padding: '1.5rem' }}>
                 <h3 style={{ fontSize: '1.3rem', fontWeight: '700', color: 'var(--charcoal)', marginBottom: '0.5rem' }}>DP-10 Ultrasound</h3>
                 <p style={{ color: 'var(--text-secondary)', fontSize: '0.95rem' }}>Digital ultrasonic diagnostic imaging system with superior resolution</p>
