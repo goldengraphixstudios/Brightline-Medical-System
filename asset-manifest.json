@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/Brightline-Medical-System/static/css/main.1f080cbf.css",
-    "main.js": "/Brightline-Medical-System/static/js/main.f427d95f.js",
+    "main.js": "/Brightline-Medical-System/static/js/main.dac7f801.js",
     "index.html": "/Brightline-Medical-System/index.html",
     "main.1f080cbf.css.map": "/Brightline-Medical-System/static/css/main.1f080cbf.css.map",
-    "main.f427d95f.js.map": "/Brightline-Medical-System/static/js/main.f427d95f.js.map"
+    "main.dac7f801.js.map": "/Brightline-Medical-System/static/js/main.dac7f801.js.map"
   },
   "entrypoints": [
     "static/css/main.1f080cbf.css",
-    "static/js/main.f427d95f.js"
+    "static/js/main.dac7f801.js"
   ]
 }
